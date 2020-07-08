@@ -4,10 +4,10 @@ $nombre = $email = $subject = $mensaje = $para = $headers = $msjCorreo = NULL;
 
 if (isset($_POST['submit'])) {
    //Obtenemos valores input formulario
-   $nombre = $_POST['nombre'];
+   $nombre = $_POST['name'];
    $email = $_POST['email'];
-   $mensaje = $_POST['mensaje'];
-   $para = 'andoporto@gmail.com';
+   $mensaje = $_POST['message'];
+   $para = 'andiz132003@gmail.com'; 
 
    //Creamos cabecera.
    $headers = 'From' . " " . $email . "\r\n";
