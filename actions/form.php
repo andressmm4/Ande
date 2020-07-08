@@ -2,7 +2,7 @@
 $nombre = $_POST['name'];
 $email = $_POST['email']; 
 $mensaje = $_POST['message'];
-$receptor = "andiz132003";  
+$receptor = "andiz132003@gmail.com";  
 
 $uniqueid= uniqid('np');
 
